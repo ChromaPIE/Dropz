@@ -27,6 +27,7 @@ dependencies {
 	modCompile "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
 	// Rayon
+	modApi 'com.github.LazuriteMC:Rayon:VERSION'
 	modImplementation "com.github.LazuriteMC:Rayon:${project.rayon_version}"
 
 	// Mod Menu
